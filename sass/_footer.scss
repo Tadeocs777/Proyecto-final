@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+    footer .container-fluid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    footer .row {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .col-xs-12 {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}

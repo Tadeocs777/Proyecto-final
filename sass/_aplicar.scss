@@ -1,0 +1,12 @@
+
+#side-image {
+    max-height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    #side-image {
+        display: none;
+    }
+}

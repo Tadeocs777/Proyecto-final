@@ -1,0 +1,20 @@
+#menu li>a {
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+#menu form>button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@mixin carta-style($border-radius: 20px, $background: #e0e0e0, $shadow-color1: #bebebe, $shadow-color2: #ffff) {
+    border-radius: $border-radius;
+    background: $background;
+    box-shadow: 21px 21px 42px $shadow-color1, -21px -21px 42px $shadow-color2;
+}
+
+.carta {
+    @include carta-style();
+}

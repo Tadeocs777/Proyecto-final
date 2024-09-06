@@ -1,0 +1,90 @@
+@media (max-width:768px) {
+    #intro {
+        width: 90% !important;
+    }
+}
+
+@media (min-width:362px) {}
+
+@media (max-width: 770px) {
+    #imagen-nosotros {
+        float: none;
+        
+        width: 80%;
+        
+        margin-left: auto;
+        
+        margin-right: auto;
+        
+        display: block;
+        
+    }
+}
+
+
+
+#bienvenido {
+    text-align: center;
+}
+
+
+@media (max-width: 770px) {
+    #bienvenido {
+        text-align: center;
+
+    }
+
+    #bienvenido h1 {
+        font-size: 1.5rem; 
+        margin: 0 auto; 
+    }
+}
+
+
+.form-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+
+@media (min-width: 992px) {
+    .form-container {
+        max-width: 600px; 
+    }
+}
+
+form {
+    margin: 0 auto; 
+    max-width: 500px; 
+    padding: 1rem;
+}
+
+
+@media (min-width: 765px) and (max-width: 990px) {
+    form {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media (max-width: 765px) {
+    form {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+.services .card {
+    width: 100%; 
+    margin-bottom: 20px; 
+}
+
+@media (max-width: 320px) {
+    .services .card {
+        width: 60vw;
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+}
+
